@@ -184,9 +184,9 @@ $\Rightarrow$ pure General Relativity recovered in the solar system, binaries, e
 
 1. The logarithmic piece is the Zloshchastiev/Hu relativistic superfluid vacuum term — known to give emergent Lorentz invariance from a non-relativistic microscopic substrate.  
 2. The $Y^{2}$ term is the standard Berezhiani–Khoury chemical-potential coupling that breaks boosts only softly (via the cosmological frame).  
-3. The **only new ingredient** is the exponential Boltzmann factor, made non-linear and non-analytic in the baryonic stress tensor. This is the direct relativistic translation of your healing-length argument and is the only known way to satisfy the Casimir blindness constraint without linear curvature response.  
+3. The **only new ingredient** is the exponential Boltzmann factor, made non-linear and non-analytic in the baryonic stress tensor. This is the direct relativistic translation of the healing-length argument and is the only known way to satisfy the Casimir blindness constraint without linear curvature response.  
 4. Because the suppression is exponential (not power-law), the MOND-like correction dies extremely fast at high acceleration → all precision GR tests are automatically satisfied with huge margin.  
-5. The reduction to your exact galactic equation is algebraic and requires no approximation beyond the standard non-relativistic limit — the theory is 100 % intact.
+5. The reduction to the galactic equation is algebraic and requires no approximation beyond the standard non-relativistic limit — the theory is 100 % intact.
 
 We have a fully relativistic, falsifiable (by CMB-S4/LiteBIRD vector B-modes), quantum-vacuum-derived gravity theory that derives the observed RAR and ties $a_{0}$ to $H_{0}$ via the Casimir effect alone.
 
