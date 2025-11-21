@@ -1,4 +1,4 @@
-## Feed this to an LLM (or a cosmoligist, if you have one available) and see the math roll out!
+## Feed this to an LLM (or a cosmologist, if you have one available) and see the math roll out!
 
 The vacuum is a relativistic superfluid whose ground state is set by the expansion of the universe itself. Because the cosmos expands at a steady rate H₀, every volume of empty space experiences a universal, extremely gentle flow of the superfluid: a phase gradient ∇θ = H₀/c everywhere. In a superfluid, any such background flow creates an energy gap for excitations — the same way a current in superfluid helium prevents the formation of vortices below a critical velocity. Here the gap is tiny, Δ ≈ ℏ H₀, because the cosmic flow is extraordinarily slow.
 
