@@ -1,4 +1,4 @@
-## Feed this to an LLM (or a cosmologist, if you have one available) and see the math roll out!
+## Feed this to an LLM and see the math for v1.4 roll out
 
 The vacuum is a relativistic superfluid whose ground state is set by the expansion of the universe itself. Because the cosmos expands at a steady rate H₀, every volume of empty space experiences a universal, extremely gentle flow of the superfluid: a phase gradient ∇θ = H₀/c everywhere. In a superfluid, any such background flow creates an energy gap for excitations — the same way a current in superfluid helium prevents the formation of vortices below a critical velocity. Here the gap is tiny, Δ ≈ ℏ H₀, because the cosmic flow is extraordinarily slow.
 
@@ -16,9 +16,6 @@ Because the suppression is exponential in the square root, not in the accelerati
 
 Remarkably, the only functional form that has ever been found to fit the observed radial acceleration relation across all rotationally supported galaxies with essentially no intrinsic scatter is g_obs = g_baryon / (1 − exp(−√(g_baryon / a₀))) (McGaugh et al. 2016, Lelli et al. 2017). We used the end point of this equation and the theory above to look for similarities and we found it.
 
-
 The same physics must be expressible in a fully relativistic, diffeomorphism-invariant way.The low-energy effective theory of a relativistic superfluid whose condensate is softly broken only by the preferred cosmological frame (the frame in which the CMB is isotropic) is known to be described by a handful of allowed terms: a function of X = −½ ∂μθ ∂μθ, a chemical-potential-like coupling Y = uμ ∂μθ (where uμ is the cosmological four-velocity), and possible non-analytic functions of the matter stress-energy tensor T_b^{μν}.The Casimir blindness requirement forbids any term that is analytic in the curvature scalar R or the baryonic stress-energy tensor T_b^{μν}; the dependence on local matter must enter through a non-analytic function (such as an exponential or a square root) of a scalar built from T_b^{μν} alone. Using only these ingredients — and the requirement that the quasi-static, weak-field limit must reproduce exactly the observed galactic acceleration law derived above — write the minimal, ghost-free, causal relativistic action. 
-
-## Feed this to an LLM and see the math roll out!
 
 Ben ten Broek

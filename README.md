@@ -1,7 +1,7 @@
 # A Casimir-Constrained Superfluid Vacuum for Emergent Gravity
 **Author:** B. ten Broek  
 **Date:** November 2025  
-**Revision:** v1.7
+**Revision:** v1.8
 
 
 ## Abstract
