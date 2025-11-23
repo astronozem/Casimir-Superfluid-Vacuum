@@ -151,13 +151,13 @@ $$
 The superfluid vacuum Lagrangian $\mathcal{L}_{\rm vac}$ (Eq. 6) consists of a free kinetic term (generating the background dark energy) and an interaction term (generating the gravitational anomaly):
 
 $$
-\mathcal{L}_{\rm vac} = \underbrace{\Lambda_{c}^{4} \left[ X \ln X - (X-1) \right]}_{\text{Free Superfluid}} + \underbrace{2 \Lambda_{c}^{4} X \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]}_{\text{Casimir-Gapped Interaction}} \tag{6}
+\mathcal{L}_{\rm vac} = \underbrace{\Lambda_{c}^{4} \left[ X \ln X - X + 1 \right]}_{\text{Free Superfluid}} + \underbrace{2 \Lambda_{c}^{4} X \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]}_{\text{Casimir-Gapped Interaction}} \tag{6}
 $$
 
 **Notes on the Action:**
-1.  **Ghost-Free:** The kinetic term $X \ln X$ is a known stable superfluid formulation (Zloshchastiev 2011) that satisfies the Null Energy Condition for $X \approx 1$.
-2.  **Vacuum Stability:** In the absence of matter ($\mathcal{G}=0$), the interaction term vanishes. The vacuum settles to the ground state $X=1$, where the pressure $P = \mathcal{L}_{\rm vac} = -\Lambda_{c}^{4}$, recovering the Cosmological Constant equation of state $w=-1$.
-3.  **No Vector Currents:** Unlike previous iterations using $u^{\mu}\partial_{\mu}\theta$, this action relies purely on the scalar invariant $X$, ensuring no preferred frame effects in the vacuum.
+1.  **Dark Energy Generation:** The free superfluid term $\Lambda_{c}^{4} (X \ln X - X + 1)$ naturally generates the background vacuum energy. In the ground state ($X \to 1$), the energy density is $\rho_{\rm vac} = \Lambda_{c}^{4}$ and pressure $P_{\rm vac} = -\Lambda_{c}^{4}$, recovering the equation of state $w = -1$ required for cosmic stability.
+2.  **Stability:** The kinetic term $X \ln X - X + 1$ satisfies the Null Energy Condition for $X \approx 1$ (Zloshchastiev 2011), ensuring ghost-free propagation.
+3.  **Lorentz Invariance:** The action depends only on the scalar invariant $X$, avoiding preferred-frame effects that plague vector-based formulations.
 
 ---
 <div style="page-break-after: always;"></div>
