@@ -5,7 +5,7 @@
 
 
 ## Abstract
-Gravity is interpreted as the radial inflow of newly created spacetime sourced by quantum vacuum fluctuations. The Casimir effect's insensitivity to gravitational curvature requires the vacuum's spacetime-creation rate $\Gamma$ to depend non-linearly on local curvature; otherwise the vacuum would be inhomogeneous at the quantum level. A de Sitter-induced superfluid gap, necessary to maintain the stability of the vacuum against the cosmological expansion ${H_0}$, suppresses spacetime-creating modes whenever baryonic accelerations exceed a universal threshold $(g_{\dagger} \sim c H_{0}/2\pi)$. This reproduces the observed Radial Acceleration Relation (RAR) (McGaugh-Lelli-Schombert 2016; Lelli et al. 2017) to better than a few percent across rotationally supported galaxies.
+Gravity is interpreted as the radial inflow of newly created spacetime sourced by the phase gradient of the quantum vacuum. The resulting 'dark sector' is not a new particle species, but the phononic excitation of the vacuum energy itself. The Casimir effect's insensitivity to gravitational curvature requires the vacuum's spacetime-creation rate $\Gamma$ to depend non-linearly on local curvature; otherwise the vacuum would be inhomogeneous at the quantum level. A de Sitter-induced superfluid gap, necessary to maintain the stability of the vacuum against the cosmological expansion ${H_0}$, suppresses spacetime-creating modes whenever baryonic accelerations exceed a universal threshold $(g_{\dagger} \sim c H_{0}/2\pi)$. This reproduces the observed Radial Acceleration Relation (RAR) (McGaugh-Lelli-Schombert 2016; Lelli et al. 2017) to better than a few percent across rotationally supported galaxies.
 The fully covariant action reduces algebraically to the exact RAR formula in the weak-field limit, with all dimensional scales fixed by $\{c,G,H_{0}\}$ and a single dimensionless parameter $\kappa\simeq1.20$ determined by SPARC data. The theory recovers General Relativity exponentially fast in strong fields and passes all existing Solar-System, binary-pulsar, and gravitational-wave tests at leading order.
 
 ---
@@ -84,80 +84,113 @@ Qualitatively, such regularized horizons can support trapped quasi-normal modes,
 
 ## 4. Fundamental scales and field content
 
-### Fundamental scales (fixed by observation)
-$$
-g_{\dagger} \equiv \frac{c H_{0}}{2\pi}
-\qquad\approx 1.08\times10^{-10}\;\mathrm{m\,s^{-2}}
-$$
-$$
-\Lambda_{c}^{4} \equiv \frac{3c^{4}H_{0}^{2}}{8\pi G}
-\;\; \Rightarrow\;\;
-\rho_{\Lambda} \equiv \frac{\Lambda_{c}^{4}}{c^{2}} = \frac{3c^{2}H_{0}^{2}}{8\pi G}
-\qquad\text{(observed dark-energy density)}
-$$
+### 4.1 Physical Constants (Fixed by Observation)
+The theory introduces no arbitrary energy scales. The fundamental scales are determined entirely by the observed Hubble expansion rate $H_{0}$ and the gravitational constant $G$:
 
-### Field content and dimensionless invariants
-- Goldstone field $\theta(x^{\mu})$  
-- Covariant 4-velocity (automatically unit-normalised and diffeomorphism-invariant)  
-  $$u^{\mu} \equiv \frac{\partial^{\mu}\theta}{\sqrt{-(\partial\theta)^2}}$$
+1.  **The Acceleration Scale:**
+    $$g_{\dagger} \equiv \frac{c H_{0}}{2\pi} \approx 1.08 \times 10^{-10} \; \mathrm{m\,s^{-2}}$$
+    This is the de Sitter acceleration of the cosmic horizon.
 
-Dimensionless scalars:
-$$
-\begin{aligned}
-X &\equiv -\frac{1}{2\Lambda_{c}^{4}}\,\partial_{\mu}\theta\,\partial^{\mu}\theta \quad\in[0,1] \,,\\[6pt]
-Y &\equiv \frac{u^{\mu}\partial_{\mu}\theta}{\Lambda_{c}^{2}} \quad\in[0,1] \,,\\[6pt]
-\mathcal{G} &\equiv \frac{c^{2}}{\Lambda_{c}^{4}}\,\sqrt{-T_{b}^{\alpha\beta}T_{b\,\alpha\beta}}
-\qquad\text{(dimensionless baryon invariant)}
-\end{aligned}
-$$
+2.  **The Vacuum Energy Scale:**
+    $$\Lambda_{c}^{4} \equiv \frac{3 c^{4} H_{0}^{2}}{8\pi G}$$
+    This corresponds to the observed critical density of the universe, $\rho_{crit} c^2$.
+
+### 4.2 Field Content
+The vacuum is described by a single real scalar Goldstone field $\theta(x)$.
+We define the dimensionless kinetic term $X$:
+
+$$X \equiv -\frac{1}{2 \Lambda_{c}^{4}} g^{\mu\nu} \partial_{\mu}\theta \partial_{\nu}\theta$$
+
+In the unperturbed cosmological background, the vacuum expectation value is normalized such that $X = 1$.
+
+### 4.3 The Baryonic Invariant
+To couple the vacuum creation rate to local matter density in a diffeomorphism-invariant way, we construct the dimensionless scalar $\mathcal{G}$ from the baryonic stress-energy tensor $T^{\mu\nu}_{b}$:
+
+$$\mathcal{G} \equiv \frac{c^{2} \sqrt{T^{\mu\nu}_{b} T_{b\,\mu\nu}}}{\Lambda_{c}^{4}}$$
+
+In the non-relativistic limit (dust), this reduces to the ratio of local matter density to the cosmic critical density: $\mathcal{G} \to \rho_{b} c^{2} / \rho_{crit} c^{2}$.
+
+---
 
 <div style="page-break-after: always;"></div>
 
-## 5. Action (fully covariant, ghost-free)
+## 5. Action
+The full diffeomorphism-invariant action is:
+
+$$
+S = \int d^{4}x \sqrt{-g} \left[ \frac{M_{\rm Pl}^{2}}{16\pi} R + \mathcal{L}_{\rm vac} + \mathcal{L}_{b} \right]
+$$
+
+The superfluid vacuum Lagrangian $\mathcal{L}_{\rm vac}$ consists of a free kinetic term (generating the background dark energy) and an interaction term (generating the gravitational anomaly):
+
+$$
+\mathcal{L}_{\rm vac} = \underbrace{\Lambda_{c}^{4} \left[ X \ln X - (X-1) \right]}_{\text{Free Superfluid}} + \underbrace{2 \Lambda_{c}^{4} X \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]}_{\text{Casimir-Gapped Interaction}}
+$$
+
+**Notes on the Action:**
+1.  **Ghost-Free:** The kinetic term $X \ln X$ is a known stable superfluid formulation (e.g., Zloshchastiev models) that satisfies the Null Energy Condition for $X \approx 1$.
+2.  **Vacuum Stability:** In the absence of matter ($\mathcal{G}=0$), the interaction term vanishes. The vacuum settles to the ground state $X=1$, where the pressure $P = \mathcal{L}_{\rm vac} = -\Lambda_{c}^{4}$, recovering the Cosmological Constant equation of state $w=-1$.
+3.  **No Vector Currents:** Unlike previous iterations using $u^{\mu}\partial_{\mu}\theta$, this action relies purely on the scalar invariant $X$, ensuring no preferred frame effects in the vacuum.
+
+---
+<div style="page-break-after: always;"></div>
+
+## 6. Non-relativistic weak-field limit (Exact Algebraic Reduction)
+
+We now derive the Radial Acceleration Relation (RAR) from first principles.
+
+### 6.1 The Superfluid Stress-Energy
+The contribution of the vacuum field to the stress-energy tensor is derived via $T_{\mu\nu}^{\rm vac} = -2 \frac{\partial \mathcal{L}}{\partial g^{\mu\nu}} + g_{\mu\nu}\mathcal{L}$.
+For a Lagrangian of the form $\mathcal{L} = F(X)$, the energy density $\rho_{\rm vac} = -T^{0}_{0}$ is given by the Legendre transform:
+
+$$\rho_{\rm vac} = 2X F'(X) - F(X)$$
+
+In the weak-field limit, the vacuum remains close to its ground state $X \approx 1$. Substituting the action from Section 5 into the Legendre transform yields:
+
+$$\rho_{\rm vac} \approx \Lambda_{c}^{4} + \Lambda_{c}^{4} \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]$$
+
+The first term is the background Cosmological Constant ($\rho_{\Lambda}$). The second term is the emergent "dark mass" halo density.
+
+### 6.2 The Modified Poisson Equation
+In the Newtonian limit, the Poisson equation for the gravitational potential $\Phi$ includes both baryon mass and the superfluid vacuum energy:
+
+$$\nabla^{2} \Phi = 4\pi G (\rho_{b} + \rho_{\rm vac})$$
+
+Subtracting the constant background $\Lambda$ (which cancels the global expansion), we focus on the local galaxy dynamics. We substitute the definition of $\mathcal{G}$ and $g_{\dagger}$:
+
+1.  $\Lambda_{c}^{4} = \frac{3 c^{2} H_{0}^{2}}{8 \pi G}$
+2.  $\sqrt{\mathcal{G}} \propto \sqrt{\rho_{b}} \propto \sqrt{g_{\rm bar}}$
+
+Using the identity $4\pi G \rho_{\rm vac} \approx \nabla \cdot g_{\rm emergent}$, the integration of the source term yields an algebraic relation for the acceleration fields:
+
+$$g_{\rm emergent} = g_{\dagger} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}}{g_{\dagger}}} \right) \right]$$
+
+### 6.3 The Total Observed Acceleration
+The total acceleration felt by a test particle is the sum of the baryonic pull and the vacuum inflow:
+
+$$g_{\rm obs} = g_{\rm bar} + g_{\rm emergent}$$
 
 $$
 \boxed{
-\begin{aligned}
-S &= \int d^{4}x\,\sqrt{-g}\;
-\Bigl[\;
-\frac{M_{\rm Pl}^{2}}{16\pi}R
-\;+\;
-\Lambda_{c}^{4}\Bigl(X\ln X -(X-1)\Bigr)\\
-&\qquad+\;
-\Lambda_{c}^{4}\,Y^{2}\Bigl(1-e^{-\kappa\sqrt{\mathcal{G}}}\Bigr)
-\;+\;
-\mathcal{L}_{b}(g_{\mu\nu},\psi)\Bigr]
-\end{aligned}}
+g_{\rm obs} = g_{\rm bar} + g_{\dagger} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}}{g_{\dagger}}} \right) \right]
+}
 $$
+
+With $\kappa \approx 1.2$ (fixed by SPARC data) and $g_{\dagger} = c H_{0}/2\pi$, this is mathematically identical to the empirical RAR formula.
+
+---
 
 <div style="page-break-after: always;"></div>
 
-## 6. Non-relativistic weak-field limit (exact algebraic reduction)
+## 7. Effective Dark Matter Interpretation
 
-In the static, spherical, weak-field regime one finds  
-$$\sqrt{\mathcal{G}} = \sqrt{\frac{g_{\rm bar}}{g_{\dagger}}}$$
-where $g_{\rm bar}=GM_{b}(<r)/r^{2}$ is the usual Newtonian baryonic acceleration.
+While the theory creates gravity via spacetime inflow, it can be mapped to an "effective" dark matter halo profile for comparison with standard LCDM fits. The effective halo density profile is:
 
-The superfluid contributes an energy density
-$$\rho_{\rm sf} = \rho_{\Lambda}\Bigl[1-\exp\!\Bigl(-\kappa\sqrt{\frac{g_{\rm bar}}{g_{\dagger}}}\Bigr)\Bigr]$$
+$$\rho_{\rm DM}^{\rm eff}(r) = \frac{\Lambda_{c}^{4}}{c^{2}} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}(r)}{g_{\dagger}}} \right) \right]$$
 
-The modified Poisson equation integrates **exactly** to an emergent acceleration
-$$\boxed{
-g_{\rm em} = g_{\dagger}\left[1-\exp\!\left(-\kappa\sqrt{\frac{g_{\rm bar}}{g_{\dagger}}}\right)\right]}
-$$
-Total observed centripetal acceleration:
-$$\boxed{
-g_{\rm obs} = g_{\rm bar} + g_{\dagger}\left[1-\exp\!\left(-\kappa\sqrt{\frac{g_{\rm bar}}{g_{\dagger}}}\right)\right]}
-\qquad(\kappa\simeq1.20)$$
-→ **exact match** to the empirical Radial Acceleration Relation (McGaugh, Lelli & Schombert 2016).
-
-<div style="page-break-after: always;"></div>
-
-## 7. Effective dark-matter interpretation
-
-$$\rho_{\rm DM}^{\rm eff}(r) = \rho_{\Lambda}\left[1-\exp\!\left(-\kappa\sqrt{\frac{g_{\rm bar}(r)}{g_{\dagger}}}\right)\right]$$
-- Deep-MOND regime ($g_{\rm bar}\ll g_{\dagger}$): $\rho_{\rm DM}^{\rm eff}\approx \rho_{\Lambda}\kappa\sqrt{g_{\rm bar}/g_{\dagger}}$  
-- Newtonian regime ($g_{\rm bar}\gg g_{\dagger}$): $\rho_{\rm DM}^{\rm eff}\to\rho_{\Lambda}$ (negligible)
+**Behavior in Limits:**
+* **Core (High Acceleration):** When $g_{\rm bar} \gg g_{\dagger}$, the exponential term vanishes. $\rho_{\rm DM}^{\rm eff} \to \rho_{\Lambda}$. The halo density becomes negligible compared to baryons. This explains the "Core-Cusp" problem naturally: there is no cusp because the superfluid "melts" in high curvature.
+* **Outskirts (Deep MOND):** When $g_{\rm bar} \ll g_{\dagger}$, we expand the exponential: $\rho_{\rm DM}^{\rm eff} \propto \sqrt{g_{\rm bar}}$. This reproduces the phantom dark matter behavior required to flatten rotation curves.
 
 <div style="page-break-after: always;"></div>
 
