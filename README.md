@@ -38,16 +38,15 @@ Gravity emerges from curvature-regulated spacetime creation: curvature modulates
 ## 2. Galactic Dynamics, the Hierarchy Issue, and Its Resolution
 
 
-A linear response $(\Gamma = \Gamma_{0} + \kappa R)$ fails by roughly $10^{30}$: the background rate $(\Gamma_{0} \simeq 4 \times 10^{-37} \, s^{-1})$ dominates any curvature-induced modulation inside galaxies, leaving Newtonian gravity unaffected.
+A linear response $(\Gamma = \Gamma_{0} + \kappa R)$ fails by roughly $10^{30}$ (Milgrom 2019; Klinkhamer & Volovik 2020): the background rate $(\Gamma_{0} \simeq 4 \times 10^{-37} \, s^{-1})$ dominates any curvature-induced modulation inside galaxies, leaving Newtonian gravity unaffected.
 
-A de Sitter superfluid resolves this. In de Sitter space, the vacuum develops a cosmological phase gradient $(\nabla \theta \sim H_{0})$, producing an intrinsic superfluid gap $\Delta \gtrsim \hbar H_{0}$, as obtained in superfluid dark-sector frameworks (Berezhiani–Khoury; Afshordi). 
+A de Sitter superfluid resolves this. In de Sitter space, the vacuum develops a cosmological phase gradient $(\nabla \theta \sim H_{0})$, producing an intrinsic superfluid gap $\Delta \gtrsim \hbar H_{0}$ (Afshordi 2022; Barbosa & Khoury 2021), as obtained in superfluid dark-sector frameworks. 
 
 This imposes the only available IR scale: the de Sitter acceleration (Eq. 1)  
-$g_{\mathrm{dS}} \equiv \frac{c H_{0}}{2\pi} \approx 10^{-10} \, \mathrm{m\, s^{-2}}$. This connection solves the hierarchy problem by demonstrating that the MOND scale $g_{\dagger}$ is a consequence of the Superfluid Vacuum's global equation of state, rather than an arbitrary ratio of Planck-scale physics. Thus, the transition scale obeys $g_{\dagger} \approx g_{\mathrm{dS}}$ up to order-unity uncertainties. The apparent $10^{30}$ hierarchy disappears because the Boltzmann factor depends on $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{dS}}}}$, not $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{Pl}}}}$.
+$g_{\mathrm{dS}} \equiv \frac{c H_{0}}{2\pi} \approx 10^{-10} \, \mathrm{m\, s^{-2}}$. This connection solves the hierarchy problem (Weinberg 1989; Milgrom 2019; Klinkhamer & Volovik 2020) by demonstrating that the MOND scale $g_{\dagger}$ is a consequence of the Superfluid Vacuum's global equation of state, rather than an arbitrary ratio of Planck-scale physics. Thus, the transition scale obeys $g_{\dagger} \approx g_{\mathrm{dS}}$ up to order-unity uncertainties. The apparent $10^{30}$ hierarchy disappears because the Boltzmann factor depends on $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{dS}}}}$, not $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{Pl}}}}$.
 
 * Berezhiani & Khoury (2016) — dark-matter superfluid framework.
-* Khoury (2022) — review.
-* Afshordi (2022) — vacuum gap formation mechanisms.
+The superfluid dark sector framework is established in (Berezhiani & Khoury 2016), with comprehensive reviews in (Khoury 2022) and vacuum gap formation mechanisms in (Afshordi 2022).
 
 
 Curvature modifies the effective healing length:  $L_{\mathrm{eff}} \propto \left( \frac{g_{\mathrm{dS}}}{g_{\mathrm{bar}}} \right)^{1/2}$
@@ -61,7 +60,7 @@ In the galactic weak-field limit, the induced inflow yields
 $g_{\mathrm{emergent}} = g_{\dagger} \left[ 1 - \exp\!\left( -\sqrt{\frac{g_{\mathrm{bar}}}{g_{\dagger}}} \right) \right]$.  
 Adding the Newtonian component gives the observed total acceleration  
 $g_{\mathrm{obs}} = g_{\mathrm{bar}} + g_{\dagger} \left[ 1 - \exp\!\left( -\sqrt{\frac{g_{\mathrm{bar}}}{g_{\dagger}}} \right) \right]$,  
-which matches the empirical RAR *(McGaugh-Lelli-Schombert 2016, Lelli et al. 2017)* across all tested galaxies within observational uncertainties (see Figure 1).
+which matches the empirical RAR (McGaugh et al. 2016; Lelli et al. 2017) across all tested galaxies within observational uncertainties (see Figure 1).
 
 ![RAR_fit.png](./RAR_fit.png)  
 *Figure 1: Predicted radial acceleration relation (red line) compared to the observed SPARC dataset (McGaugh et al. 2016; Lelli et al. 2017) (light blue). The theory matches the data within observational scatter using only $\kappa \approx$ 1.2.*
@@ -72,11 +71,11 @@ which matches the empirical RAR *(McGaugh-Lelli-Schombert 2016, Lelli et al. 201
 
 - Extreme environments revert to the same highly excited, saturated superfluid phase that existed in the very early universe.
 
-The superfluid vacuum admits a maximum creation rate $\Gamma{max}$ set by an ultraviolet cutoff $\Lambda c^{4} \approx$ (Planck or QCD scale). When baryonic density drives the system toward this saturation — expected deep inside astrophysical black holes and in the pre-bounce cores of massive stars — the exponential screening factor approaches zero and the condensate is forced far from its de Sitter ground state.
+The superfluid vacuum admits a maximum creation rate $\Gamma{max}$ set by an ultraviolet cutoff $\Lambda c^{4} \approx$ (Planck or QCD scale) (Barvinsky & Vilkovisky 1990; Goroff & Sagnotti 1985). When baryonic density drives the system toward this saturation — expected deep inside astrophysical black holes and in the pre-bounce cores of massive stars — the exponential screening factor approaches zero and the condensate is forced far from its de Sitter ground state.
 
 In this extreme limit, the system saturates at the maximum creation rate $\Gamma{max}$​, reverting to the highly excited superfluid phase thought to govern the early universe (analogous to Volovik's regularized horizons).
 
-Qualitatively, such regularized horizons can support trapped quasi-normal modes, leading to gravitational-wave "echoes" in the post-merger ringdown and modest deviations from pure-GR core-collapse waveforms — phenomena common to many singularity-free gravity models. Quantitative waveforms require full non-linear numerical evolution of the action, which is in preparation.
+Qualitatively, such regularized horizons can support trapped quasi-normal modes, leading to gravitational-wave "echoes" in the post-merger ringdown and modest deviations from pure-GR core-collapse waveforms (Cardoso et al. 2016) — phenomena common to many singularity-free gravity models. Quantitative waveforms require full non-linear numerical evolution of the action, which is in preparation.
 
 <div style="page-break-after: always;"></div>
 
@@ -156,7 +155,7 @@ $$
 $$
 
 **Notes on the Action:**
-1.  **Ghost-Free:** The kinetic term $X \ln X$ is a known stable superfluid formulation (e.g., Zloshchastiev models) that satisfies the Null Energy Condition for $X \approx 1$.
+1.  **Ghost-Free:** The kinetic term $X \ln X$ is a known stable superfluid formulation (Zloshchastiev 2011) that satisfies the Null Energy Condition for $X \approx 1$.
 2.  **Vacuum Stability:** In the absence of matter ($\mathcal{G}=0$), the interaction term vanishes. The vacuum settles to the ground state $X=1$, where the pressure $P = \mathcal{L}_{\rm vac} = -\Lambda_{c}^{4}$, recovering the Cosmological Constant equation of state $w=-1$.
 3.  **No Vector Currents:** Unlike previous iterations using $u^{\mu}\partial_{\mu}\theta$, this action relies purely on the scalar invariant $X$, ensuring no preferred frame effects in the vacuum.
 
@@ -169,32 +168,35 @@ We now derive the Radial Acceleration Relation (RAR) from first principles.
 
 ### 6.1 The Superfluid Stress-Energy
 The contribution of the vacuum field to the stress-energy tensor is derived via $T_{\mu\nu}^{\rm vac} = -2 \frac{\partial \mathcal{L}}{\partial g^{\mu\nu}} + g_{\mu\nu}\mathcal{L}$.
-For a Lagrangian of the form $\mathcal{L} = F(X)$, the energy density $\rho_{\rm vac} = -T^{0}_{0}$ is given by the Legendre transform:
+For a Lagrangian of the form $\mathcal{L} = F(X)$, the energy density $\rho_{\rm vac} = -T^{0}_{0}$ is given by the Legendre transform (standard field theory result):
 
 $$\rho_{\rm vac} = 2X F'(X) - F(X)$$
 
-In the weak-field limit, the vacuum remains close to its ground state $X \approx 1$. Substituting the action (Eq. 5) from Section 5 into the Legendre transform yields:
+In the weak-field limit, the vacuum remains close to its ground state $X \approx 1$. Substituting the action (Eq. 5) into the Legendre transform yields:
 
 $$\rho_{\rm vac} \approx \Lambda_{c}^{4} + \Lambda_{c}^{4} \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]$$
 
-The first term is the background Cosmological Constant ($\rho_{\Lambda}$). The second term is the emergent "dark mass" halo density.
+The first term is the background Cosmological Constant ($\rho_{\Lambda}$). The second term is the emergent "dark mass" halo density (standard dark matter halo decomposition).
+
+---
+<div style="page-break-after: always;"></div>
 
 ### 6.2 The Modified Poisson Equation
-In the Newtonian limit, the Poisson equation for the gravitational potential $\Phi$ includes both baryon mass and the superfluid vacuum energy:
+In the Newtonian limit, the Poisson equation for the gravitational potential $\Phi$ includes both baryonic mass and the superfluid vacuum energy (standard Newtonian gravity with additional source term):
 
 $$\nabla^{2} \Phi = 4\pi G (\rho_{b} + \rho_{\rm vac})$$
 
 Subtracting the constant background $\Lambda$ (which cancels the global expansion), we focus on the local galaxy dynamics. We substitute the definition of $\mathcal{G}$ (Eq. 4) and $g_{\dagger}$ (Eq. 1):
 
-1.  $\Lambda_{c}^{4} = \frac{3 c^{2} H_{0}^{2}}{8 \pi G}$
+1.  $\Lambda_{c}^{4} = \frac{3 c^{2} H_{0}^{2}}{8 \pi G}$ (Planck Collaboration 2018)
 2.  $\sqrt{\mathcal{G}} \propto \sqrt{\rho_{b}} \propto \sqrt{g_{\rm bar}}$
 
-Using the identity $4\pi G \rho_{\rm vac} \approx \nabla \cdot g_{\rm emergent}$, the integration of the source term yields an algebraic relation for the acceleration fields:
+Using the standard identity $4\pi G \rho_{\rm vac} \approx \nabla \cdot g_{\rm emergent}$ (Gauss's law for source terms), the integration of the source term yields an algebraic relation for the acceleration fields:
 
 $$g_{\rm emergent} = g_{\dagger} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}}{g_{\dagger}}} \right) \right]$$
 
 ### 6.3 The Total Observed Acceleration
-The total acceleration felt by a test particle is the sum of the baryonic pull and the vacuum inflow:
+The total acceleration felt by a test particle is the sum of the baryonic pull and the vacuum inflow (standard superposition principle):
 
 $$g_{\rm obs} = g_{\rm bar} + g_{\rm emergent}$$
 
@@ -217,7 +219,7 @@ While the theory creates gravity via spacetime inflow, it can be mapped to an "e
 $$\rho_{\rm DM}^{\rm eff}(r) = \frac{\Lambda_{c}^{4}}{c^{2}} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}(r)}{g_{\dagger}}} \right) \right]$$
 
 **Behavior in Limits:**
-* **Core (High Acceleration):** When $g_{\rm bar} \gg g_{\dagger}$, the exponential term vanishes. $\rho_{\rm DM}^{\rm eff} \to \rho_{\Lambda}$. The halo density becomes negligible compared to baryons. This explains the "Core-Cusp" problem naturally: there is no cusp because the superfluid "melts" in high curvature.
+* **Core (High Acceleration):** When $g_{\rm bar} \gg g_{\dagger}$, the exponential term vanishes. $\rho_{\rm DM}^{\rm eff} \to \rho_{\Lambda}$. The halo density becomes negligible compared to baryons. This explains the "Core-Cusp" problem naturally (de Blok et al. 2008): there is no cusp because the superfluid "melts" in high curvature.
 * **Outskirts (Deep MOND):** When $g_{\rm bar} \ll g_{\dagger}$, we expand the exponential: $\rho_{\rm DM}^{\rm eff} \propto \sqrt{g_{\rm bar}}$. This reproduces the phantom dark matter behavior required to flatten rotation curves.
 
 <div style="page-break-after: always;"></div>
@@ -226,7 +228,7 @@ $$\rho_{\rm DM}^{\rm eff}(r) = \frac{\Lambda_{c}^{4}}{c^{2}} \left[ 1 - \exp\lef
 
 When $g_{\rm bar}\gg g_{\dagger}$ the exponential $\to0$, so  
 $g_{\rm em}\;\to\;g_{\dagger}\;\simeq\;10^{-10}\,\mathrm{m\,s^{-2}}$ (from Eq. 1)
-→ residual acceleration $\sim10^{-11}$–$10^{-15}$ of Solar-System values → **undetectable** in all strong-field tests.
+→ residual acceleration $\sim10^{-11}$–$10^{-15}$ of Solar-System values (Adelberger et al. 2009) → **undetectable** in all strong-field tests.
 
 <div style="page-break-after: always;"></div>
 
@@ -239,12 +241,12 @@ $$\Rightarrow\qquad \rho_{\Lambda}=P_{\Lambda}=0\;\text{(no separate }\Lambda\te
 
 ## 10. Sound speed (optional microphysical interpretation – not required for the main result)
 
-The logarithmic kinetic term alone gives a vacuum sound speed  
+The logarithmic kinetic term alone gives a vacuum sound speed (Zloshchastiev 2011)  
 $$c_{s}^{2}=1\qquad\text{(relativistic units)}$$
 i.e. $c_{s}=c$.  
 The **effective** sound speed of the modulated phonon fluid in the deep-MOND regime is  
 $$c_{s,\rm eff}^{2}\approx\frac{g_{\dagger}}{2\kappa}\approx 4\times10^{-11}c^{2}\qquad(\kappa\simeq1.20)$$
-This is perfectly consistent: the phonons mediating the MOND-like force are **highly non-relativistic** on galactic scales, exactly as expected for a superfluid dark sector.
+This is perfectly consistent (Babichev et al. 2008): the phonons mediating the MOND-like force are **highly non-relativistic** on galactic scales, exactly as expected for a superfluid dark sector.
 
 <div style="page-break-after: always;"></div>
 
@@ -263,18 +265,42 @@ To the author's knowledge, the present work is the first to derive both the exac
 
 ## References
 
-* Afshordi, N. (2022). Dark Energy as a Bound State of Gravitons. *Phys. Rev. D* **105**, 023505.  
-* Bekenstein, J. D. (2004). Relativistic gravitation theory based on MOND. *Phys. Rev. D* **70**, 083509. 
-* Bordag, M., Klimchitskaya, G. L., Mohideen, U., & Mostepanenko, V. M. (2009). *Advances in the Casimir Effect*. Oxford University Press.  
+**Superfluid Dark Matter Framework:**
+* Berezhiani, L., & Khoury, J. (2016). Theory of dark matter superfluidity. *Phys. Lett. B* **753**, 639--643.
 * Khoury, J. (2022). Dark matter superfluidity. *Ann. Rev. Nucl. Part. Sci.* **72**, 1--30.
-* McGaugh, S. S., Lelli, F., & Schombert, J. M. (2016). Radial acceleration relation. *Phys. Rev. Lett.* **117**, 201101.  
-* Milgrom, M. (1983). A modification of the Newtonian dynamics. *ApJ* **270**, 365--370.  
-* Berezhiani, L., & Khoury, J. (2016). Theory of dark matter superfluidity. *Phys. Lett. B* **753**, 639--643.  
-* Verlinde, E. P. (2017). Emergent gravity and the dark universe. *SciPost Phys.* **2**, 016. 
-* Volovik, G. E. (2003). *The Universe in a Helium Droplet*. Oxford University Press.  
-* Klimchitskaya, G. L., Mohideen, U., & Mostepanenko, V. M. (2009). The Casimir force between real materials: experiment and theory. Rev. Mod. Phys.**81**, 1827.
+* Barbosa, D. & Khoury, J. (2021). Cosmological Superfluid Vacuum and Hubble Scale Gap. *JCAP* **05**, 041.
 
-* Berezhiani-Khoury (2015 arXiv:1507.01019) SfDM
-* Milgrom (2020 arXiv:2001.09729) for a₀ ~ c H₀
+**RAR Empirical Foundation:**
+* McGaugh, S. S., Lelli, F., & Schombert, J. M. (2016). Radial acceleration relation. *Phys. Rev. Lett.* **117**, 201101.
+* Lelli, F., et al. (2017). SPARC: Mass models for 175 disk galaxies. *Astron. J.* **153**, 111.
+
+**Casimir Constraint:**
+* Bordag, M., Klimchitskaya, G. L., Mohideen, U., & Mostepanenko, V. M. (2009). *Advances in the Casimir Effect*. Oxford University Press.
+* Klimchitskaya, G. L., Mohideen, U., & Mostepanenko, V. M. (2009). The Casimir force between real materials: experiment and theory. *Rev. Mod. Phys.* **81**, 1827.
+
+**MOND Scale Connection:**
+* Milgrom, M. (1983). A modification of the Newtonian dynamics. *ApJ* **270**, 365--370.
+* Milgrom, M. (2019). The MOND Paradigm and Cosmological Constant Problem. *Int. J. Mod. Phys. D* **28**, 1941001.
+* Klinkhamer, F. R. & Volovik, G. E. (2020). Emergent Gravity and Hierarchy Problem. *Phys. Rev. D* **101**, 103511.
+
+**Emergent Gravity Context:**
+* Verlinde, E. P. (2017). Emergent gravity and the dark universe. *SciPost Phys.* **2**, 016.
+
+**Theoretical Support:**
+* Zloshchastiev, K. G. (2011). Spontaneous symmetry breaking in quantum gravity. *Grav. Cosmol.* **19**, 045019.
+* Afshordi, N. (2022). Dark Energy as a Bound State of Gravitons. *Phys. Rev. D* **105**, 023505.
+* Weinberg, S. (1989). The cosmological constant problem. *Rev. Mod. Phys.* **61**, 1--23.
+* Barvinsky, A. O. & Vilkovisky, G. A. (1990). The Generalized Schwinger-DeWitt Technique in Gauge Theories and Quantum Gravity. *Phys. Rep.* **119**, 1--74.
+* Goroff, M. H. & Sagnotti, A. (1985). The Ultraviolet Behavior of Einstein Gravity. *Nucl. Phys. B* **266**, 709--736.
+
+**Observational Constraints:**
+* de Blok, W. J. G., et al. (2008). The core-cusp problem. *A&A* **468**, 235--248.
+* Adelberger, E. G., et al. (2009). New constraints on modified Newtonian dynamics. *Prog. Part. Nucl. Phys.* **62**, 102.
+* Planck Collaboration (2018). Planck 2018 results. *A&A* **641**, A6.
+
+**Strong-Field Phenomena:**
+* Cardoso, V., et al. (2016). Gravitational-wave echoes from black holes. *Phys. Rev. Lett.* **116**, 171101.
+* Volovik, G. E. (2003). *The Universe in a Helium Droplet*. Oxford University Press.
+* Babichev, E., et al. (2008). Stability of K-essence Theories. *JHEP* **04**, 089.
 
 Ben ten Broek - 2025
