@@ -12,7 +12,6 @@ The fully covariant action reduces algebraically to the exact RAR formula in the
 
 <div style="page-break-after: always;"></div>
 
-
 ## Author's note: The Origins Of This Work And The Use Of AI
 After 30 years of skepticism toward ΛCDM and a nagging sense that physics feels disconnected from the "how" and "why," I stumbled on a connection between the Casimir effect, gravity, and the idea that space itself might be *created*—not just expanded. Around October 1, 2025, I half-jokingly asked AI to generate cosmology math for this idea. It failed on all attempts. Then, on October 10, I let it rest. But in the second half of November, a breakthrough: realizing the idea must involve **spacetime**, not just space. This shift led me to try to find similarities with the **RAR curve** (McGaugh's formula for galaxy rotation discrepancies) equation and my ideas. It was the right path, as the AI solved the math in just a few steps. An approach to a perfect fit.  
 AI scrutinizers pointed out missing relativistic math now. This deemed hard and all attempts violated the core Casimir constraint concept. However, by refusing any additional free parameters beyond the single $\kappa$ fixed by SPARC data, the result is algebraic equivalence. The resulting action is fully diffeomorphism-invariant and reduces algebraically to the observed RAR with $\kappa \approx 1.2$ (fixed by SPARC data).  
