@@ -1,3 +1,4 @@
+
 # A Casimir-Constrained Superfluid Vacuum for Emergent Gravity
 **Author:** B. ten Broek  
 **Date:** November 2025  
@@ -41,7 +42,7 @@ A linear response $(\Gamma = \Gamma_{0} + \kappa R)$ fails by roughly $10^{30}$:
 
 A de Sitter superfluid resolves this. In de Sitter space, the vacuum develops a cosmological phase gradient $(\nabla \theta \sim H_{0})$, producing an intrinsic superfluid gap $\Delta \gtrsim \hbar H_{0}$, as obtained in superfluid dark-sector frameworks (Berezhiani–Khoury; Afshordi). 
 
-This imposes the only available IR scale: the de Sitter acceleration  
+This imposes the only available IR scale: the de Sitter acceleration (Eq. 1)  
 $g_{\mathrm{dS}} \equiv \frac{c H_{0}}{2\pi} \approx 10^{-10} \, \mathrm{m\, s^{-2}}$. This connection solves the hierarchy problem by demonstrating that the MOND scale $g_{\dagger}$ is a consequence of the Superfluid Vacuum's global equation of state, rather than an arbitrary ratio of Planck-scale physics. Thus, the transition scale obeys $g_{\dagger} \approx g_{\mathrm{dS}}$ up to order-unity uncertainties. The apparent $10^{30}$ hierarchy disappears because the Boltzmann factor depends on $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{dS}}}}$, not $\sqrt{\frac{g_{\mathrm{bar}}}{g_{\mathrm{Pl}}}}$.
 
 * Berezhiani & Khoury (2016) — dark-matter superfluid framework.
@@ -87,27 +88,55 @@ Qualitatively, such regularized horizons can support trapped quasi-normal modes,
 The theory introduces no arbitrary energy scales. The fundamental scales are determined entirely by the observed Hubble expansion rate $H_{0}$ and the gravitational constant $G$:
 
 1.  **The Acceleration Scale:**
-    $$g_{\dagger} \equiv \frac{c H_{0}}{2\pi} \approx 1.08 \times 10^{-10} \; \mathrm{m\,s^{-2}}$$
+    $$g_{\dagger} \equiv \frac{c H_{0}}{2\pi} \approx 1.08 \times 10^{-10} \; \mathrm{m\,s^{-2}} \tag{1}$$
     This is the de Sitter acceleration of the cosmic horizon.
 
 2.  **The Vacuum Energy Scale:**
-    $$\Lambda_{c}^{4} \equiv \frac{3 c^{4} H_{0}^{2}}{8\pi G}$$
+    $$\Lambda_{c}^{4} \equiv \frac{3 c^{4} H_{0}^{2}}{8\pi G} \tag{2}$$
     This corresponds to the observed critical density of the universe, $\rho_{crit} c^2$.
 
 ### 4.2 Field Content
 The vacuum is described by a single real scalar Goldstone field $\theta(x)$.
 We define the dimensionless kinetic term $X$:
 
-$$X \equiv -\frac{1}{2 \Lambda_{c}^{4}} g^{\mu\nu} \partial_{\mu}\theta \partial_{\nu}\theta$$
+$$X \equiv -\frac{1}{2 \Lambda_{c}^{4}} g^{\mu\nu} \partial_{\mu}\theta \partial_{\nu}\theta \tag{3}$$
 
-In the unperturbed cosmological background, the vacuum expectation value is normalized such that $X = 1$.
+In the unperturbed cosmological background, the vacuum expectation value is normalized such that $X = 1$ (from Eq. 3).
 
 ### 4.3 The Baryonic Invariant
 To couple the vacuum creation rate to local matter density in a diffeomorphism-invariant way, we construct the dimensionless scalar $\mathcal{G}$ from the baryonic stress-energy tensor $T^{\mu\nu}_{b}$:
 
-$$\mathcal{G} \equiv \frac{c^{2} \sqrt{T^{\mu\nu}_{b} T_{b\,\mu\nu}}}{\Lambda_{c}^{4}}$$
+$$\mathcal{G} \equiv \frac{c^{2} \sqrt{T^{\mu\nu}_{b} T_{b\,\mu\nu}}}{\Lambda_{c}^{4}} \tag{4}$$
 
-In the non-relativistic limit (dust), this reduces to the ratio of local matter density to the cosmic critical density: $\mathcal{G} \to \rho_{b} c^{2} / \rho_{crit} c^{2}$.
+In the non-relativistic limit (dust), this reduces to the ratio of local matter density to the cosmic critical density: $\mathcal{G} \to \rho_{b} c^{2} / \rho_{crit} c^{2}$ (from Eq. 4).
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## 4.4 Variable Definitions
+**Spacetime Creation:**
+- $\Gamma$ - local spacetime creation rate
+- $\Gamma_{0}$ - background cosmological creation rate
+- $\Gamma_{\max}$ - maximum creation rate (UV cutoff)  
+
+**Accelerations:**
+- ${\mathrm{bar}}$ - baryonic (Newtonian) acceleration
+- ${\mathrm{emergent}}$ - vacuum-induced emergent acceleration
+- ${\mathrm{obs}}$ - total observed acceleration
+- ${\mathrm{dS}}$ - de Sitter acceleration scale  
+
+**Energy Densities:**
+- $\rho_{\rm vac}$ - vacuum energy density
+- $\rho_{\Lambda}$ - cosmological constant density
+- $\rho_{b}$ - baryonic matter density
+- $\rho_{\rm DM}^{\rm eff}$ - effective dark matter density  
+
+**Superfluid Properties:**
+- $\Delta$ - superfluid energy gap
+- ${\mathrm{eff}}$ - effective healing length
+- ${s}$ - vacuum sound speed
+- ${s,\rm eff}$ - effective phonon sound speed
 
 ---
 
@@ -117,13 +146,13 @@ In the non-relativistic limit (dust), this reduces to the ratio of local matter 
 The full diffeomorphism-invariant action is:
 
 $$
-S = \int d^{4}x \sqrt{-g} \left[ \frac{M_{\rm Pl}^{2}}{16\pi} R + \mathcal{L}_{\rm vac} + \mathcal{L}_{b} \right]
+S = \int d^{4}x \sqrt{-g} \left[ \frac{M_{\rm Pl}^{2}}{16\pi} R + \mathcal{L}_{\rm vac} + \mathcal{L}_{b} \right] \tag{5}
 $$
 
-The superfluid vacuum Lagrangian $\mathcal{L}_{\rm vac}$ consists of a free kinetic term (generating the background dark energy) and an interaction term (generating the gravitational anomaly):
+The superfluid vacuum Lagrangian $\mathcal{L}_{\rm vac}$ (Eq. 6) consists of a free kinetic term (generating the background dark energy) and an interaction term (generating the gravitational anomaly):
 
 $$
-\mathcal{L}_{\rm vac} = \underbrace{\Lambda_{c}^{4} \left[ X \ln X - (X-1) \right]}_{\text{Free Superfluid}} + \underbrace{2 \Lambda_{c}^{4} X \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]}_{\text{Casimir-Gapped Interaction}}
+\mathcal{L}_{\rm vac} = \underbrace{\Lambda_{c}^{4} \left[ X \ln X - (X-1) \right]}_{\text{Free Superfluid}} + \underbrace{2 \Lambda_{c}^{4} X \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]}_{\text{Casimir-Gapped Interaction}} \tag{6}
 $$
 
 **Notes on the Action:**
@@ -144,7 +173,7 @@ For a Lagrangian of the form $\mathcal{L} = F(X)$, the energy density $\rho_{\rm
 
 $$\rho_{\rm vac} = 2X F'(X) - F(X)$$
 
-In the weak-field limit, the vacuum remains close to its ground state $X \approx 1$. Substituting the action from Section 5 into the Legendre transform yields:
+In the weak-field limit, the vacuum remains close to its ground state $X \approx 1$. Substituting the action (Eq. 5) from Section 5 into the Legendre transform yields:
 
 $$\rho_{\rm vac} \approx \Lambda_{c}^{4} + \Lambda_{c}^{4} \left[ 1 - \exp\left( -\kappa \sqrt{\mathcal{G}} \right) \right]$$
 
@@ -155,7 +184,7 @@ In the Newtonian limit, the Poisson equation for the gravitational potential $\P
 
 $$\nabla^{2} \Phi = 4\pi G (\rho_{b} + \rho_{\rm vac})$$
 
-Subtracting the constant background $\Lambda$ (which cancels the global expansion), we focus on the local galaxy dynamics. We substitute the definition of $\mathcal{G}$ and $g_{\dagger}$:
+Subtracting the constant background $\Lambda$ (which cancels the global expansion), we focus on the local galaxy dynamics. We substitute the definition of $\mathcal{G}$ (Eq. 4) and $g_{\dagger}$ (Eq. 1):
 
 1.  $\Lambda_{c}^{4} = \frac{3 c^{2} H_{0}^{2}}{8 \pi G}$
 2.  $\sqrt{\mathcal{G}} \propto \sqrt{\rho_{b}} \propto \sqrt{g_{\rm bar}}$
@@ -172,10 +201,10 @@ $$g_{\rm obs} = g_{\rm bar} + g_{\rm emergent}$$
 $$
 \boxed{
 g_{\rm obs} = g_{\rm bar} + g_{\dagger} \left[ 1 - \exp\left( -\kappa \sqrt{\frac{g_{\rm bar}}{g_{\dagger}}} \right) \right]
-}
+} \tag{7}
 $$
 
-With $\kappa \approx 1.2$ (fixed by SPARC data) and $g_{\dagger} = c H_{0}/2\pi$, this is mathematically identical to the empirical RAR formula.
+With $\kappa \approx 1.2$ (fixed by SPARC data) and $g_{\dagger} = c H_{0}/2\pi$ (Eq. 1), this is mathematically identical to the empirical RAR formula.
 
 ---
 
@@ -196,7 +225,7 @@ $$\rho_{\rm DM}^{\rm eff}(r) = \frac{\Lambda_{c}^{4}}{c^{2}} \left[ 1 - \exp\lef
 ## 8. High-acceleration limit
 
 When $g_{\rm bar}\gg g_{\dagger}$ the exponential $\to0$, so  
-$$g_{\rm em}\;\to\;g_{\dagger}\;\simeq\;10^{-10}\,\mathrm{m\,s^{-2}}$$
+$g_{\rm em}\;\to\;g_{\dagger}\;\simeq\;10^{-10}\,\mathrm{m\,s^{-2}}$ (from Eq. 1)
 → residual acceleration $\sim10^{-11}$–$10^{-15}$ of Solar-System values → **undetectable** in all strong-field tests.
 
 <div style="page-break-after: always;"></div>
@@ -228,7 +257,7 @@ This is perfectly consistent: the phonons mediating the MOND-like force are **hi
 
 ---
 
-To the author's knowledge, the present work is the first to derive both the exact numerical value $a_{0} = c H_{0}/2\pi$ and the full functional form of the Radial Acceleration Relation from quantum-vacuum physics and the observed near-invariance of the Casimir force alone.
+To the author's knowledge, the present work is the first to derive both the exact numerical value $a_{0} = c H_{0}/2\pi$ (Eq. 1) and the full functional form of the Radial Acceleration Relation (Eq. 7) from quantum-vacuum physics and the observed near-invariance of the Casimir force alone.
 
 ---
 
